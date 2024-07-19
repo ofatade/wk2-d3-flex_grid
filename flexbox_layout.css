@@ -1,0 +1,38 @@
+.nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+}
+
+
+.main-content {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+}
+
+.header {
+    background-image: url('cloudy.jpg');
+    color: blue;
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+@media screen and (max-width: 768px) {
+    .nav{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content:space-evenly;
+}
+    .footer{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    }
